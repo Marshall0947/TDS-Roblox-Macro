@@ -111,10 +111,30 @@ Loop
     Click, 1108, 747 ; upgrade shotgunner
     Sleep, 13500
     
-    Sleep, 15000 ; Wave 9
+    Click, 1216, 576 ; Select Frost Blaster
+    Sleep, 1000
+    Click, 1108, 747 ; Upgrade Frost Blaster
+    Sleep, 12000 ; Wave 9
+    Click, 1448, 596 ; Select Frost Blaster
+    Sleep, 1000
 
-    Sleep, 15000 ; Wave 10
-    
+    Click, 1108, 747 ; Upgrade Frost Blaster
+    Sleep, 23000 ; Wave 10
+    Click, 1218, 575 ; Select Frost Blaster
+    Sleep, 2000
+    Click, 1108, 747 ; Upgrade Frost Blaster
+
+    Sleep, 19000
+    Click, 1456, 956 ; Select Frost Blaster
+    Sleep, 2000
+    Click, 1108, 747
+
+    Sleep, 160000 ; Time taken from last upgrade
+    Click, 1048, 828 ; Click back to lobby button
+    Sleep, 500
+    Click 1075, 828 ; Click it again incase it bugged
+
+    Sleep, 150000 ; Loading back into main game, 2 1/2 minutes  
 }
 return
 
