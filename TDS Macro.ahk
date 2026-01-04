@@ -155,9 +155,10 @@ Loop
     Sleep, 500
     Click 1075, 828 ; Click it again incase it bugged
 
-    Sleep, 110000 ; Loading back into main game, 1 min 50 seconds minutes  
+    Sleep, 120000 ; Loading back into main game, 2 min seconds minutes  
 }
 return
 
 GuiClose:
+
 ExitApp
