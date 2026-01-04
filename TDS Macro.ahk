@@ -150,7 +150,7 @@ Loop
     Sleep, 2000
     Click, 1080, 750
 
-    Sleep, 160000 ; Time taken from last upgrade
+    Sleep, 110000 ; Time taken from last upgrade
     Click, 1048, 828 ; Click back to lobby button
     Sleep, 500
     Click 1075, 828 ; Click it again incase it bugged
@@ -160,5 +160,4 @@ Loop
 return
 
 GuiClose:
-
 ExitApp
